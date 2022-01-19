@@ -6,6 +6,7 @@
     height: 90%;
     display: block;
     margin: auto;
+    background-color: rgb(117, 108, 108);
 }
 .info{
     margin: 0;
@@ -13,27 +14,73 @@
     box-sizing: border-box;
     text-align: center;
     background-color: rgb(36, 30, 30);
+
+}
+.container{
+    background-color: rgb(37, 34, 34);
     color: white;
- 
+    width: 20rem;
+    margin-left: 270px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 25px;
+    border-radius: 30px;
+
 }
-.info--image{
-    width: 200px;
+.container--image{
+    width: 318px;
     height: auto;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
 }
-.info--title{
-    background-color: rgb(36, 30, 30);
+.container--title{
+    background-color: rgb(37, 34, 34);
+    margin-top: 0px;
 }
-.info--subtitle{
-    background-color: rgb(36, 30, 30);
+.container--subtitle{
+    background-color: rgb(37, 34, 34);
     color: gray;
+    margin-top: -10px;
 }
-.info--website{
-    background-color: rgb(36, 30, 30);
+.container--website{
+    background-color: rgb(37, 34, 34);
     color: gray;
+    margin-top: -10px;
 }
-.info--button1{
+.container--buttons{
+    background-color: rgb(37, 34, 34);
+    
+}
+.container--buttons__1{
     background-color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-right: 12px;
 }
-.info--button2{
-    background-color: blue;
+.container--buttons__2{
+    background-color: #0072B1;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-left: 12px;
+}
+.container--buttons__1 > i{
+    margin-right: 5px;
+}
+.container--buttons__2 > i{
+    margin-right: 5px;
+}
+.container--buttons__1 > p{
+    background-color: white;
+    margin-left: 5px;
+    color:rgb(37, 34, 34);
+    font-weight: 400;
+}
+.container--buttons__2 > p{
+    background-color: #0072B1;
+    margin-left: 5px;
 }
