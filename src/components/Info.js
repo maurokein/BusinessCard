@@ -15,7 +15,7 @@ export default function Info(){
             </button>
             <button className='info--button2'>
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
-                   Linkedin
+                Linkedin
             </button>
         </div>
     )
