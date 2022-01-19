@@ -1,0 +1,39 @@
+*{
+    background-color: rgb(117, 108, 108);
+}
+.app{
+    width: 65%;
+    height: 90%;
+    display: block;
+    margin: auto;
+}
+.info{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(36, 30, 30);
+    color: white;
+ 
+}
+.info--image{
+    width: 200px;
+    height: auto;
+}
+.info--title{
+    background-color: rgb(36, 30, 30);
+}
+.info--subtitle{
+    background-color: rgb(36, 30, 30);
+    color: gray;
+}
+.info--website{
+    background-color: rgb(36, 30, 30);
+    color: gray;
+}
+.info--button1{
+    background-color: white;
+}
+.info--button2{
+    background-color: blue;
+}
