@@ -4,7 +4,7 @@ import Image from '../images/profileimage.jpeg'
 export default function Info(){
     return(
         <div className='info'>
-            <div className='container'>
+            <div className='info-container'>
                 <img src={Image} alt='profile' className="container--image"/>
                 <h1 className='container--title'>Mauro Kein</h1>
                 <h4 className='container--subtitle'>Fullstack Developer</h4>
@@ -12,10 +12,10 @@ export default function Info(){
                 <div className='container--buttons'>
                     <button className='container--buttons__1'>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
-                       Email
+                       <strong>Email</strong>
                     </button>
                     <button className='container--buttons__2'>
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
                         Linkedin
                     </button>
                 </div>
