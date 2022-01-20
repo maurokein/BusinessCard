@@ -5,7 +5,7 @@ export default function Interests(){
         <div className="interests-container">
             <h3 className="interests--title">Interests</h3>
             <p className="interests--text">
-            I am interested in many software engineering areas like Web/Mobile Development (Frontend and Backend), Web Scrapping, Natural Language Proccesing and Football Analytics.
+            I am interested in many Computer Science areas like Web/Mobile Development (Frontend and Backend), Web Scrapping, Natural Language Proccesing and Football Analytics.
             </p>
         </div>
     )
